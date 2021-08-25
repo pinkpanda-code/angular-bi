@@ -1,0 +1,4 @@
+<button [ngStyle]="{ 'background-color': color, 'color': textColor }" (click)="onClick()" class="btn" [type]="type" [disabled]="loading">
+    <span *ngIf="loading" class="spinner-border spinner-border-sm mr-1"></span>
+    {{ text }}
+</button>
