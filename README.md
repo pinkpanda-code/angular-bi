@@ -10,7 +10,7 @@ Run the serve command and the server will be listening on [http://localhost:4200
 ng serve
 ```
 
-##Facebook Login
+## Facebook Login
 
 As Facebook has [enforced HTTPS](https://developers.facebook.com/blog/post/2018/06/08/enforce-https-facebook-login/) for the login, the project is using [ngrok](https://ngrok.com/download) to expose the localhost to a random generated public HTTPS URL.
 
@@ -19,7 +19,7 @@ Start `ngrok.exe` and run the following command.
 ngrok.exe http 4200
 ```
 
-###Facebook App Setup
+### Facebook App Setup
 
 Go to [Facebook Developer Apps](https://developers.facebook.com/apps) page.
 
@@ -33,7 +33,7 @@ Insert `https://YOUR-RANDOM-URL.ngrok.io` to **Allowed Domains for the JavaScrip
 
 Navigate to **Roles** > **Test Users** and make sure have the test user is created. This is for login purpose as the app is still in development mode.
 
-###Replace App ID
+### Replace App ID
 Copy the **App ID** from the app page. Back to project folder `environments` and replace the following in `environment.ts` and `environment.prod.ts`
 ```
 facebookAppId: 'YOUR-APP-ID'
