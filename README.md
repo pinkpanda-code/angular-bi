@@ -23,6 +23,12 @@ ngrok.exe http 4200
 
 Go to [Facebook Developer Apps](https://developers.facebook.com/apps) page.
 
+Click **Create App** and choose **None**. 
+
+Fill in any **App Display Name** and create the app.
+
+Click **Set Up** at **Facebook Login**.
+
 Navigate to **Facebook Login** > **Quick Start** > **Web**.
 
 Copy `https://YOUR-RANDOM-URL.ngrok.io` from `ngrok.exe` to **Site URL** and click **Save**.
